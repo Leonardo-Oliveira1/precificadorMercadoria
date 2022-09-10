@@ -20,9 +20,9 @@ form.addEventListener('submit', function(e) {
     console.log("Porcentagem: "+ porcent);
 
 
-    UnitText.innerText="Valor unitário: R$"+preco_unitaria.toFixed(2);
-    LucroText.innerText="Lucro da venda: R$"+lucro.toFixed(2);
-    BrutoText.innerText="Venda bruta: R$"+venda_bruta.toFixed(2);
+    UnitText.innerText="R$"+preco_unitaria.toFixed(2);
+    LucroText.innerText="R$"+lucro.toFixed(2);
+    BrutoText.innerText="R$"+venda_bruta.toFixed(2);
 
     e.preventDefault();
 });
