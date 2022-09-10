@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="content">
+            <h1>Calculadora de % sobre lucro</h1>
+
+            <h2 id="valor_unitario">Valor unitário: R$0.00</h2>
+            <h2 id="lucro">Lucro da venda: R$0.00</h2>
+            <h2 id="venda_bruta">Venda bruta: R$0.00</h2>
+
+            <form id="form">
+                <label>Valor</label><br>
+                <input type="number" id="valor"><br>
+
+                <label>Unidades</label><br>
+                <input type="number" id="units"><br>
+
+                <label>Porcentagem de lucro desejada</label><br>
+                <input type="number" id="porcentagem"><br>
+
+                <input type="submit" value="Calcular">
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
