@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    margin-top: 100px;
+    margin-top: 120px;
 
     .content{
         width: 800px;
@@ -40,6 +40,13 @@ body{
                 line-height: 0px;
     
             }
+
+            .endresult{
+                p{
+                    font-weight: bold;
+                }
+                color: darkgreen;
+            }
         }
     }
 
@@ -53,7 +60,7 @@ body{
         }
     
         #porcentagem, #units{
-            margin-left: 36px;
+            margin-left: 24px;
             width: 200px;
         }
     
@@ -72,11 +79,11 @@ body{
         }
 
         #label2{
-            margin-left: 346px;
+            margin-left: 333px;
         }
 
         #label3{
-            margin-left: 623px;
+            margin-left: 602px;
         }
 
         #label4{
@@ -129,7 +136,7 @@ body{
         }
 
         input[type=submit]{
-            width: 120px;
+            width: 160px !important;
             height: 48px;
             cursor: pointer;
             
