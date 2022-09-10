@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    margin-top: 120px;
+    margin-top: 150px;
 
     .content{
         width: 800px;
@@ -53,6 +53,7 @@ body{
     #form{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
     
         #valor{
             width: 270px;
@@ -105,7 +106,7 @@ body{
             &:focus{
                 outline: #6C4FC1 solid 1px;
             }
-          }
+        }
           select{
             position: relative;
             display: inline-block;
@@ -162,5 +163,3 @@ body{
         }
     }
 }
-
-@import 'main425px';
