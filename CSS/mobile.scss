@@ -4,7 +4,8 @@ $porcent: 99%;
 .container{
     .content{
         max-width: $porcent;
-
+        padding-bottom: 40px;
+        
         .result{
             flex-direction: column;
             align-items: center;
