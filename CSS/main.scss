@@ -6,7 +6,10 @@ body{
     background: #EDEDED;
 }
 
-$main-color: #6C4FC1;
+$main-color: #156637;
+$main-color-hover: #2F703B;
+$main-color-active: #053334;
+
 $main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .container{
@@ -148,11 +151,11 @@ $main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: 700;
     
             &:hover{
-                background-color: #7D5BE1;
+                background-color: $main-color-hover;
             }
     
             &:active{
-                background-color: #372863;
+                background-color: $main-color-active;
             }
         }
     }
