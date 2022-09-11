@@ -15,18 +15,30 @@
     <div class="container">
         <div class="content">
 
+            <center><h1>Precificador de mercadoria</h1></center>
+            
             <form id="form">
-                <label id="label1">Valor total do varejo</label>
-                <input type="text" data-affixes-stay="false" data-prefix="R$ " data-thousands="," data-decimal="." id="valor" required><br>
+                <div class="input_box">
+                    <label>Custo total de compra</label>
+                    <input type="text" data-affixes-stay="true" data-prefix="R$ " data-thousands="," data-decimal="." id="valor" value="R$ 0.00" required><br>
+                </div>
 
-                <label id="label2">% de lucro desejada</label>
-                <input type="number" id="porcentagem" value="30" required><br>
+                <div class="input_box">
+                    <label>% de lucro desejado</label>
+                    <input type="number" id="porcentagem" value="30" required><br>
+                </div>
                 
-                <label id="label3">Unidades</label>
-                <input type="number" id="units" value="1" required><br>
+                <div class="input_box">
+                    <label>Unidades</label>
+                    <input type="number" id="units" value="1" required><br>
+                </div>
 
-                <input type="submit" value="Calcular">
+                <div class="input_box">
+                    <input type="submit" value="Calcular">
+                </div>
             </form>
+
+            <hr>
 
             <div class="result">
                 <div class="resultbox1">
