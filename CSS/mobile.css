@@ -1,2 +1,1 @@
-.container .content{max-width:99%;padding-bottom:40px}.container .content .result{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container #form{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.container #form .input_box{max-width:99%}
-/*# sourceMappingURL=mobile.css.map */
+.container .content{max-width:99%}.container .content .result{flex-direction:column;align-items:center;padding-bottom:40px}.container #form{flex-direction:column}.container #form .input_box{max-width:99%}/*# sourceMappingURL=mobile.css.map */

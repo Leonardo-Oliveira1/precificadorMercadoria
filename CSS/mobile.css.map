@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAGA,AACI,UADM,CACN,QAAQ,AAAA,CACJ,SAAS,CAHP,GAAG,CAIL,cAAc,CAAE,IAAI,CAOvB,AAVL,AAKQ,UALE,CACN,QAAQ,CAIJ,OAAO,AAAA,CACH,cAAc,CAAE,MAAM,CACtB,WAAW,CAAE,MAAM,CACtB,AART,AAYI,UAZM,CAYN,KAAK,AAAA,CACD,cAAc,CAAE,MAAM,CAMzB,AAnBL,AAeQ,UAfE,CAYN,KAAK,CAGD,UAAU,AAAA,CACN,SAAS,CAjBX,GAAG,CAkBJ",
-    "sources": [
-        "mobile.scss"
-    ],
-    "names": [],
-    "file": "mobile.css"
-}
+{"version":3,"sources":["mobile.scss"],"names":[],"mappings":"AAKI,oBACI,aAJE,CAMF,4BACI,qBAAA,CACA,kBAAA,CACA,mBAAA,CAKR,iBACI,qBAAA,CAEA,4BACI,aAlBF","file":"mobile.css"}
